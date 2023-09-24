@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #f9f5ea;
+    font-family: OCR A Std, monospace;
+    padding: 30px 1%;
+    text-align: center;
+    align-items: center;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.nav a{
+    font-size: 20px;
+    justify-self: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+}
+
+.link:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+.link:active{
+    opacity: 0.7;
+}
+
+.logo-wrapper{
+    height: 50px;
+}
+
+.logo-wrapper img{
+    width: auto;
+    height: 100%;
+}
+
+.mid{
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1fr 1fr; 
+    grid-template-rows: 2fr 1fr;
+    gap: 0px 20px;
+    background-color: #f9f5ea;
+}
+
+.mid-element:last-child{
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+.mid-element:nth-child(3), .mid-element:nth-child(4){
+    grid-row: span 2;
+}
+
+.mid-element{
+    border: none;
+    padding: 11vh 2vw;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.mid-element ol, ul{
+    padding: 10px;
+}
+
+.footer{
+    display: grid;
+    padding: 20px 2%;
+    background-color: #f9f5ea;
+    font-family: OCR A Std, monospace;
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 1fr;
+
+    background-color: #000000;
+    transition: background-color 1s linear, color 1s;
+    color: #ffffef;
+    font-family: unify sans regular;
+}
+
+.footer:hover{
+    background-color: #f9f5ea;
+    color:black;
+}
+
+.footer h2{
+    margin-right: 60px;
+}
+
+.footer span{
+    font-family: Lucida Console;
+    font-size: 13px;
+    margin-top: 30px;
+}

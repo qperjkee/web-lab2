@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #f9f5ea;
+    font-family: OCR A Std, monospace;
+    padding: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nav td {
+    text-align: right;
+    padding: 5px;
+}
+
+td h2{
+    width:80%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.nav a{
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+.link:active {
+    opacity: 0.7;
+}
+
+.main-table {
+  vertical-align: middle;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: 77vh;
+  background-color: #f9f5ea;
+}
+
+.main-table td {
+  padding: 0;
+}
+
+.main-table p{
+  padding: 11vh 2vw;
+}
+
+.first-table,
+.second-table {
+  height: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #f9f5ea;
+}
+
+.first-table td,
+.second-table td {
+  background-color: #f9f5ea;
+}
+
+.second-table td div,
+.first-table td div {
+  background-color: white;
+}
+
+.first-table tr:first-of-type td:first-of-type div {
+  margin-right: 1rem;
+}
+
+.second-table tr td:first-of-type div {
+  margin-right: 1rem;
+}
+
+.spacer {
+  height: 100%;
+  padding-right: 1rem;
+}
+
+.first-table td div,
+.second-table td div {
+  height: 100%;
+  border: 1px solid black;
+}
+
+.first-table td p {
+  margin: auto 0;
+}
+
+.mid td {
+  background-color: white;
+  border: 1px solid black;
+}
+
+footer{
+    background-color: #f9f5ea;
+    font-family: OCR A Std, monospace;
+    background-color: #000000;
+    transition: background-color 1s linear, color 1s;
+    color: #ffffef;
+    font-family: unify sans regular;
+    height:11vh;
+}
+
+footer:hover{
+    background-color: #f9f5ea;
+    color:black;
+}
+
+footer h2{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-right: 60px;
+}
+
+footer span{
+    font-family: Lucida Console;
+    font-size: 13px;
+    margin-top: 30px;
+}
